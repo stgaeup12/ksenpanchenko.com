@@ -42,7 +42,18 @@ Open **[`js/config.js`](file:///c:/Users/salman/Downloads/ksenpanchenko.com/js/c
 ├── index.html                   # Clean semantic home page
 ├── about.html                   # Complete About page
 ├── about/
-│   └── index.html               # Clean route /about/ compatibility
+│   └── index.html               # Route /about/
+├── work.html                    # Complete Work archive page
+├── work/
+│   ├── index.html               # Route /work/
+│   ├── skybiz.html              # SkyBiz Case Study (/work/skybiz)
+│   ├── emerald24.html           # Emerald24 Case Study (/work/emerald24)
+│   ├── intxpay.html             # IntXPay Case Study (/work/intxpay)
+│   ├── trulia.html              # Trulia Case Study (/work/trulia)
+│   ├── skybiz/index.html        # Clean directory route /work/skybiz/
+│   ├── emerald24/index.html     # Clean directory route /work/emerald24/
+│   ├── intxpay/index.html       # Clean directory route /work/intxpay/
+│   └── trulia/index.html        # Clean directory route /work/trulia/
 ├── server.js                    # Zero-dependency local dev server
 ├── js/
 │   ├── config.js                # ⭐️ Central portfolio configuration
