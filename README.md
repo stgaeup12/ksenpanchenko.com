@@ -39,7 +39,10 @@ Open **[`js/config.js`](file:///c:/Users/salman/Downloads/ksenpanchenko.com/js/c
 ## 📂 Project Architecture
 
 ```
-├── index.html                   # Clean semantic HTML page
+├── index.html                   # Clean semantic home page
+├── about.html                   # Complete About page
+├── about/
+│   └── index.html               # Clean route /about/ compatibility
 ├── server.js                    # Zero-dependency local dev server
 ├── js/
 │   ├── config.js                # ⭐️ Central portfolio configuration
@@ -59,7 +62,7 @@ Open **[`js/config.js`](file:///c:/Users/salman/Downloads/ksenpanchenko.com/js/c
 │   ├── base.css                 # CSS variables, typography, and dark theme
 │   ├── components.css           # Cards, navigation, stickers, and awards
 │   └── selected-work.css        # Showcase layout & screen frames
-├── glyphs/                      # ASCII coordinate maps (branch.json, quote.json)
+├── glyphs/                      # ASCII coordinate maps (branch.json, quote.json, portrait.json)
 ├── fonts/                       # Custom typography (.woff2)
 ├── images/                      # High-res graphics and case media
 └── work/                        # In-depth case study subpages (emerald24.html)

@@ -38,7 +38,12 @@ const server = http.createServer((req, res) => {
 
   let filePath = path.join(ROOT, reqPath);
 
-  // If path doesn't have extension and .html exists, serve that (e.g. /work/emerald24 -> /work/emerald24.html)
+  // If path is a directory and contains index.html, serve that
+  if (fs.existsSync(filePath) && fs.statSync(filePath).isDirectory()) {
+    filePath = path.join(filePath, 'index.html');
+  }
+
+  // If path doesn't have extension and .html exists, serve that (e.g. /about -> /about.html)
   if (!path.extname(filePath) && fs.existsSync(filePath + '.html')) {
     filePath += '.html';
   }
