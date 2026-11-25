@@ -26,19 +26,19 @@ export const siteConfig = {
   facts: [
     {
       label: "Role",
-      value: "UX/UI & Product Designer\nIndependent · FinTech, SaaS and web"
+      value: "Product Designer\nB2B SaaS · Enterprise UX"
     },
     {
       label: "Services",
-      value: "Product & UX\nWeb & Systems\nTurnkey websites\nSocial & Content"
+      value: "Product Design\nUX Research & Strategy\nUI & Interaction Design\nPrototyping & Design Systems"
     },
     {
-      label: "Recognition",
-      value: "London Design Awards 2026 — Gold, Emerald24 · CSS Design Awards — Special Kudos, Best UI, UX & Innovation"
+      label: "Focus",
+      value: "Complex Workflows\nData-rich Interfaces\nAI-powered Experiences"
     },
     {
       label: "Based in",
-      value: "Dublin, Ireland"
+      value: "Greater Noida\nUttar Pradesh, India"
     }
   ],
 
