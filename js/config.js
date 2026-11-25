@@ -12,7 +12,7 @@ export const siteConfig = {
     location: "Dublin, Ireland",
     timeZone: "Europe/Dublin",
     statusText: "Available for projects",
-    email: "kseniia.uiuxdesigner@gmail.com",
+    email: "uxsalman@gmail.com",
     avatar: "/images/home/avatar.webp",
     cutout: "/images/kseniia-cutout.webp",
     headline: {
