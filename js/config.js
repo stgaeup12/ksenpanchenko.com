@@ -19,7 +19,7 @@ export const siteConfig = {
       displayWord: "Design",
       italicWords: "that clicks"
     },
-    tagline: "I value design that disappears — clear enough that no one notices the interface, honest enough to earn trust, simple enough that complex things just click."
+    tagline: "I believe great design makes complexity feel simple, builds trust through clarity, and creates experiences where even the hardest workflows just click."
   },
 
   // Highlight Facts (Top Grid)
